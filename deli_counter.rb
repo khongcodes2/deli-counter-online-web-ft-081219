@@ -14,7 +14,7 @@ end
 def line(katz_deli)
   case katz_deli.length
     when 0
-      "The line is currently empty"
+      puts "The line is currently empty"
     else
       "The line is currently:" + line_string
   end
