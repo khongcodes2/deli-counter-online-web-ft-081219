@@ -1,7 +1,14 @@
+require 'pry'
+
 katz_deli=[]
 
 def line_string(katz_deli)
-  katz_deli
+  new_array=[]
+  katz_deli.each do |name|
+    new_array << "#{katz_deli.index(name)+1}. #{name}"
+  end
+  new_array.join(" ")
+  binding.pry
 end
 
 def line(katz_deli)
