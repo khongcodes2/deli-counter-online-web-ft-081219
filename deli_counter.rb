@@ -15,7 +15,7 @@ def line(katz_deli)
     when 0
       puts "The line is currently empty."
     else
-      "The line is currently:" + line_string(katz_deli)
+      puts "The line is currently:" + line_string(katz_deli)
   end
 
 end
